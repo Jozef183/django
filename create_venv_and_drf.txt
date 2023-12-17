@@ -1,0 +1,24 @@
+-- Vytorenie venv a drf (virtualne prostredie a django rest framework)
+
+1 . vytvorim pdadresar .venv
+mkdir .venv
+
+2. Vytvorim virtualne prostredie
+python -m venv .venv/drf
+
+3. Aktivujem venv v gitbush
+source .venv/drf/Scripts/activate
+
+alebo
+3.1 Aktivujem venv vo windows
+.venv/drf/Scripts/activate.bat
+
+pip list
+-- pip list nam zobrazi ziadne kniznice
+
+4. Prípadná deaktivacia
+source .venv/drf/Scripts/deactivate
+
+5. Instalacia django
+pip install django
+
