@@ -1,0 +1,15 @@
+-- vytvorenie projektu
++++++++++++
+-- Lekcia 9
++++++++++++
+
+django-admin startproject  school_project
+
+cd school_project
+git init
+
+python manage.py runserver
+
+http://127.0.0.1:8000
+localhost:8000
+localhost:8080
